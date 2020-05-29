@@ -1,8 +1,7 @@
-language: shell
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  on:
-    branch: master
+language: bash
+before_script:
+    - git clone https://github.com/bangden07/VPN-Proxy-Installer.git vpn-proxy
+    - cd vpn-proxy
+
+script:
+    - bash install.sh
