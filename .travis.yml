@@ -1,19 +1,9 @@
-#language: bash
-#before_script:
-#    - git clone https://github.com/bangden07/VPN-Proxy-Installer.git vpn-proxy
-#    - cd vpn-proxy
-#
-#script:
-#    - bash install.sh
+language: bash
+dist: bionic
+before_script:
+    - git clone https://github.com/bangden07/VPN-Proxy-Installer.git vpn-proxy
+    - cd vpn-proxy
+    - sudo chmod +x install.sh
 
-deploy:
-  # deploy develop to the staging environment
-  - provider: script
-    script: bash install.sh staging
-    on:
-      branch: develop
-  # deploy master to production
-  - provider: script
-    script: bash install.sh production
-    on:
-      branch: master
+script:
+    - ./install.sh
