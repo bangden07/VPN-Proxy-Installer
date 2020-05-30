@@ -1,5 +1,2 @@
 service_name: travis-pro
 repo_token: X7ESnqHVVSSJb93deQ7BqJkzeyMsfAFt1
-
-pip3 install coveralls
-coveralls
