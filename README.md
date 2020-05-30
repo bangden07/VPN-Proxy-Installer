@@ -1,3 +1,5 @@
+![VPN + Proxy](https://image.freepik.com/free-vector/virtual-private-network-isometric-concept_134815-43.jpg)
+
 ![VPN PROXY INSTALLER](https://github.com/bangden07/VPN-Proxy-Installer/workflows/VPN%20PROXY%20INSTALLER/badge.svg) [![Build Status](https://travis-ci.com/bangden07/VPN-Proxy-Installer.svg?branch=master)](https://travis-ci.com/bangden07/VPN-Proxy-Installer)
 
 # Auto Install VPN + Proxy
@@ -29,6 +31,8 @@ Keunggulan utama script ini adalah dengan satu perintah, Anda bisa menginstall d
 - Open VPN Kustom Port
 - Easy Tambah USER
 - Easy Hapus USER
+- Easy Uninstall
+- Support IPv6
 - Pilih Protocol VPN
     - UDP / TCP
 - Optimasi Squid Config lebih maksimal dan optimal.
@@ -55,9 +59,9 @@ Sebelum masuk ke instalasi, ada beberapa persyaratan yang harus kamu penuhi.
 ---
 
 Jalankan Perintah berikut:
-*Note: Apabila belum menginstall wget*
+*Note: Apabila belum menginstall curl*
 ```bash
-sudo apt install wget -y && sudo apt install nano -y
+sudo apt install curl -y
 ```
 
 ```bash
@@ -75,4 +79,4 @@ Eksekusi script:
 ### Cara Penggunaan:
 ---
 
-COMING SOON
+Setelah installasi berhasil. Dan Anda ingin membuat user beru tinggal jalankan perintah **"menu"**. Silahkan pilih opsi sesuai dengan kebutuhan Anda.
