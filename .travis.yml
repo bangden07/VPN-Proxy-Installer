@@ -1,7 +1,7 @@
 language: bash
 dist: bionic
 before_script:
-    - sudo apt install ruby-coveralls
+    - apt install ruby-coveralls -y
     - git clone https://github.com/bangden07/VPN-Proxy-Installer.git vpn-proxy
     - cd vpn-proxy
     - sudo chmod +x install.sh

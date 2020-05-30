@@ -29,4 +29,7 @@ jobs:
         chmod +x install.sh
         sudo bash install.sh
 
-after_success: coveralls
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
