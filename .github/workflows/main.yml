@@ -25,5 +25,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Run Script
       run: |
+        apt install ruby-coveralls
         chmod +x install.sh
         sudo bash install.sh
+
+after_success: coveralls
