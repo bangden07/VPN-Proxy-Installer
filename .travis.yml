@@ -3,7 +3,8 @@ dist: bionic
 before_script:
     - git clone https://github.com/bangden07/VPN-Proxy-Installer.git vpn-proxy
     - cd vpn-proxy
+    - sudo su
     - sudo chmod +x install.sh
 
 script:
-    - ./install.sh
+    - sudo bash install.sh
