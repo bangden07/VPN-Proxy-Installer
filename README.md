@@ -27,6 +27,8 @@ Keunggulan utama script ini adalah dengan satu perintah, Anda bisa menginstall d
 - Installasi sangat mudah
 - Squid Proxy Support SSL *(versi terbaru)*.
 - Open VPN Kustom Port
+- Easy Tambah USER
+- Easy Hapus USER
 - Pilih Protocol VPN
     - UDP / TCP
 - Optimasi Squid Config lebih maksimal dan optimal.
@@ -53,9 +55,16 @@ Sebelum masuk ke instalasi, ada beberapa persyaratan yang harus kamu penuhi.
 ---
 
 Jalankan Perintah berikut:
-    ```bash
-    wget https://s.id/vpn-proxy -O install.sh && bash install.sh
-    ```
+*Note: Apabila belum menginstall wget*
+```bash
+sudo apt install wget -y && sudo apt install nano -y
+```
+
+```bash
+wget https://git.io/JfKr7 -O install.sh && sudo chod +x install.sh
+
+bash install.sh
+```
 
 ### Cara Penggunaan:
 ---
