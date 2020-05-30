@@ -6,4 +6,4 @@ before_script:
     - sudo chmod +x install.sh
 
 script:
-    - sudo bash install.sh
+    - ./install.sh
