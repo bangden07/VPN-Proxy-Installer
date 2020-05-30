@@ -27,8 +27,3 @@ jobs:
       run: |
         chmod +x install.sh
         sudo bash install.sh
-
-    - name: Coveralls
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
