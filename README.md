@@ -61,9 +61,15 @@ sudo apt install wget -y && sudo apt install nano -y
 ```
 
 ```bash
-wget https://git.io/JfKr7 -O install.sh && sudo chod +x install.sh
+curl -O https://raw.githubusercontent.com/bangden07/VPN-Proxy-Installer/master/install.sh
 
-bash install.sh
+chmod +x install.sh
+```
+
+Eksekusi script:
+
+```bash
+./install.sh
 ```
 
 ### Cara Penggunaan:
