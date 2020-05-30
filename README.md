@@ -1,7 +1,6 @@
 ![VPN PROXY INSTALLER](https://github.com/bangden07/VPN-Proxy-Installer/workflows/VPN%20PROXY%20INSTALLER/badge.svg) [![Build Status](https://travis-ci.com/bangden07/VPN-Proxy-Installer.svg?branch=master)](https://travis-ci.com/bangden07/VPN-Proxy-Installer)
 
 # Auto Install VPN + Proxy
----
 
 ### Intro
 ---
